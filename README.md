@@ -5,8 +5,7 @@ A small project that allows you to play rock paper scissors games against the co
 
 
 ## Screenshots
-
-![App Screenshot](assets/rock-paper-scissors-screenshot.jpeg)
+<img src="assets/rock-paper-scissors-screenshot.jpeg" height="500">
 
 ### Try [Here!](https://mrmax01.github.io/rock-paper-scissors/)
 ## 🛠 Skills
