@@ -6,7 +6,7 @@ Un piccolo progetto che ti permette di giocare delle partite a carta forbici sas
 
 ## Screenshots
 
-![App Screenshot]()
+![App Screenshot](assets/rock-paper-scissors-screenshot.jpeg)
 
 ### Per provarlo [clicca qui!](https://mrmax01.github.io/rock-paper-scissors/)
 ## 🛠 Skills
