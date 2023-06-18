@@ -1,7 +1,7 @@
 
-# Carta forbici sasso
+# Rock Paper Scissors
 
-Un piccolo progetto che ti permette di giocare delle partite a carta forbici sasso contro il computer.
+A small project that allows you to play rock paper scissors games against the computer.
 
 
 ## Screenshots
@@ -13,19 +13,19 @@ Un piccolo progetto che ti permette di giocare delle partite a carta forbici sas
 Javascript, HTML, CSS
 
 
-## Descrizione
-**Algoritmo:**
-- Attende che l'utente scelga una mossa con un click su uno dei bottoni
+## Description
+**Algorithm:**
+- Waits for the user to choose a move with a click on one of the buttons
 
-- Sul click (onclick) il computer sceglie un numero(x) casuale 0<=x <1 (Math.random()).
-Se il numero casuale è compreso:
-- 0 <= x < 1/3 il pc utilizza la mossa 'sasso'
-- 1/3 <= x <2/3 il pc utilizza la mossa 'carta'
-- 2/3 <= x < 1 il pc utilizza la mossa 'forbici'<br>
+- On click (onclick) the computer chooses a random number(x) 0<=x <1 (Math.random()).
+If the random number is included:
+- 0 <= x < 1/3 pc uses 'rock' move
+- 1/3 <= x <2/3 pc uses 'paper' move
+- 2/3 <= x < 1 PC uses the move 'scissors'<br>
 
-*questo determinerà la mossa del computer.*
+*this will determine the computer's move.*
 
-Infine calcola il risultato, aggiorna la pagina con il nuovo score e salva lo score in localStorage.
+Finally calculate the result, update the page with the new score and save the score in localStorage.
 ## Authors
 
 - [@Massimo](https://www.github.com/MrMax01)
