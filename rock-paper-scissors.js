@@ -15,6 +15,25 @@ if(!score)
 */
 updateScoreElement();
 
+document.querySelector('.js-rock-button').addEventListener('click', ()=>{
+    playGame('rock');
+});
+
+document.querySelector('.js-paper-button').addEventListener('click', ()=>{
+    playGame('paper');
+});
+
+document.querySelector('.js-scissors-button').addEventListener('click', ()=>{
+    playGame('scissors');
+});
+
+document.querySelector('.js-reset-score-button').addEventListener('click', () => {
+    score.wins=0;
+    score.losses=0; 
+    score.ties=0;
+    localStorage.removeItem('score');
+    updateScoreElement();
+});
 
 function playGame(playerMove)
 {
@@ -96,7 +115,7 @@ function updateResultElement(result){
     document.querySelector('.js-result').innerHTML = result;
 }
 
-/*Mossa del computer*/
+/*Mostra la giocata nel display*/
 function updateMoves(computerMove, playerMove){
     
     document.querySelector('.js-moves').innerHTML = ' you <img src="./assets/'+playerMove+'-emoji.png" alt="Rock" class="move-icon"><img src="./assets/'+computerMove+'-emoji.png" alt="Scissor" class="move-icon"> Computer';
